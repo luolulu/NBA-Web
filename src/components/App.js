@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { TopNavBar } from './TopNavBar';
 import { Main } from './Main';
-import '../styles/App.css';
 
 class App extends Component {
     render() {
@@ -15,4 +14,3 @@ class App extends Component {
 }
 
 export default App;
-

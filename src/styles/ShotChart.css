@@ -2,7 +2,9 @@
 
 #shot-chart {
     width: 100%;
-    margin: auto;
+    margin-top: -50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /********SHOTCHART COURT STYLES****** */
@@ -76,6 +78,7 @@ svg circle.shot.make {
     stroke: white;
     stroke-width: 0.05;
 }
+
 svg circle.shot.miss {
     fill: red;
     stroke: white;
@@ -150,3 +153,10 @@ path.shot {
     top: 50%;
     left: 100%;
 }
+
+
+
+
+
+
+

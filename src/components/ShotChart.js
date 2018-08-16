@@ -1,3 +1,4 @@
+
 import React from 'react';
 import nba from 'nba';
 import * as d3 from 'd3';
@@ -9,10 +10,10 @@ window.d3_hexbin = {hexbin : hexbin}; // workaround library problem
 
 export class ShotChart extends React.Component {
     static propTypes = {
-        playerId: PropTypes.number.isRequired,
-        minCount: PropTypes.number.isRequired,
-        chartType: PropTypes.string.isRequired,
-        displayTooltip: PropTypes.bool.isRequired,
+        playerId: PropTypes.number,
+        minCount: PropTypes.number,
+        chartType: PropTypes.string,
+        displayTooltip: PropTypes.bool,
     }
 
     componentDidUpdate() {

@@ -1,6 +1,5 @@
-
 import React from 'react';
-import logo from '../assets/images/nba-logoman-word-white.svg';
+import logo from '../assets/nba-logoman-word-white.svg';
 
 export class TopNavBar extends React.Component {
     render() {
@@ -11,6 +10,3 @@ export class TopNavBar extends React.Component {
         );
     }
 }
-
-
-export const TEAM_PIC_URL_PREFIX = 'https://stats.nba.com/media/img/teams/logos';
